@@ -19,7 +19,7 @@
       </nav>
       <section>
         <p>Sign in</p>
-        <label for="email">user name</label>
+        <label for="email">username</label>
         <input
           type="email"
           name="email"
@@ -31,7 +31,7 @@
           type="password"
           name="email"
           id="pass"
-          placeholder="type our password"
+          placeholder="type your password"
         />
       </section>
     </header>
@@ -57,7 +57,7 @@
         </article>
         <article>
           <div>
-            <h2>A list of the top 10 sports with balls</h2>
+            <h2 id="list">A list of the top 10 sports with balls</h2>
             <p>
               Generally, in games, balls are caught, head-butted, thrown, hit,
               kicked, bumped, spiked, dunked, driven, served, bowled, broken,
@@ -231,93 +231,96 @@
       <br />
       <br />
       <section>
-        <details>
-          <summary>Time and number of players</summary>
+        <h3 id="Q">Q & A</h3>
+        <section>
+          <details>
+            <summary>Time and number of players</summary>
 
-          <table border="1">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Number of players</th>
-                <th>Time</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Soccer</td>
-                <td>11</td>
-                <td>90 min</td>
-              </tr>
-              <tr>
-                <td>Basketball</td>
-                <td>12</td>
-                <td>40 min</td>
-              </tr>
-              <tr>
-                <td>American football</td>
-                <td>11</td>
-                <td>60 min</td>
-              </tr>
-              <tr>
-                <td>Rugby</td>
-                <td>15/7</td>
-                <td>80 min</td>
-              </tr>
-              <tr>
-                <td>Hockey</td>
-                <td>6</td>
-                <td>60 min</td>
-              </tr>
-              <tr>
-                <td>Cricket</td>
-                <td>11</td>
-                <td>depends on the number of ball thrown</td>
-              </tr>
-              <tr>
-                <td>Baseball</td>
-                <td>9</td>
-                <td>no time/ after 9 innings</td>
-              </tr>
-              <tr>
-                <td>Tennis</td>
-                <td>1/2</td>
-                <td>3 set/5 set</td>
-              </tr>
-              <tr>
-                <td>Handball</td>
-                <td>7</td>
-                <td>60 min</td>
-              </tr>
-              <tr>
-                <td>Volleyball</td>
-                <td>6</td>
-                <td>>3 set/ =3 set</td>
-              </tr>
-            </tbody>
-          </table>
-        </details>
-      </section>
-      <br />
-      <br />
-      <section>
-        <details>
-          <p>
-            Soccer is the most famous game in history, with over 250 million
-            players in over 200 countries. It has risen and become an iconic
-            symbol in the athletic world, and as of 2023, over 4 billion people
-            consider themselves soccer lovers.
-          </p>
-          <summary>What is the most popular ball game?</summary>
-        </details>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Number of players</th>
+                  <th>Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Soccer</td>
+                  <td>11</td>
+                  <td>90 min</td>
+                </tr>
+                <tr>
+                  <td>Basketball</td>
+                  <td>12</td>
+                  <td>40 min</td>
+                </tr>
+                <tr>
+                  <td>American football</td>
+                  <td>11</td>
+                  <td>60 min</td>
+                </tr>
+                <tr>
+                  <td>Rugby</td>
+                  <td>15/7</td>
+                  <td>80 min</td>
+                </tr>
+                <tr>
+                  <td>Hockey</td>
+                  <td>6</td>
+                  <td>60 min</td>
+                </tr>
+                <tr>
+                  <td>Cricket</td>
+                  <td>11</td>
+                  <td>depends on the number of ball thrown</td>
+                </tr>
+                <tr>
+                  <td>Baseball</td>
+                  <td>9</td>
+                  <td>no time/ after 9 innings</td>
+                </tr>
+                <tr>
+                  <td>Tennis</td>
+                  <td>1/2</td>
+                  <td>3 set/5 set</td>
+                </tr>
+                <tr>
+                  <td>Handball</td>
+                  <td>7</td>
+                  <td>60 min</td>
+                </tr>
+                <tr>
+                  <td>Volleyball</td>
+                  <td>6</td>
+                  <td>>3 set/ =3 set</td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </section>
         <br />
         <br />
-        <details>
-          <p>
-            Snooker is a game played using 22 balls and a cue. It is played by
-            sinking red and coloured balls attentively using the cue.
-          </p>
-          <summary>What sport uses 22 balls?</summary>
-        </details>
+        <section>
+          <details>
+            <p>
+              Soccer is the most famous game in history, with over 250 million
+              players in over 200 countries. It has risen and become an iconic
+              symbol in the athletic world, and as of 2023, over 4 billion
+              people consider themselves soccer lovers.
+            </p>
+            <summary>What is the most popular ball game?</summary>
+          </details>
+          <br />
+          <br />
+          <details>
+            <p>
+              Snooker is a game played using 22 balls and a cue. It is played by
+              sinking red and coloured balls attentively using the cue.
+            </p>
+            <summary>What sport uses 22 balls?</summary>
+          </details>
+        </section>
       </section>
       <section>
         <br />
@@ -379,6 +382,36 @@
         </ul>
       </nav>
     </main>
-    <footer></footer>
+    <br />
+    <br />
+    <hr />
+    <hr />
+    <br />
+    <br />
+    <footer>
+      <nav>
+        <ol>
+          <li>
+            <a href="#">about us</a>
+          </li>
+          <br />
+          <li>
+            <a href="" target="_blank">home</a>
+          </li>
+          <br />
+          <li>
+            <a href="/">refresh page</a>
+          </li>
+          <br />
+          <li>
+            <a href="#list">A list of the top 10 sports with balls</a>
+          </li>
+          <br />
+          <li>
+            <a href="#Q">Q & A</a>
+          </li>
+        </ol>
+      </nav>
+    </footer>
   </body>
 </html>
